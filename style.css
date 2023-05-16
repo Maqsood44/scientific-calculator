@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(126, 179, 230);
+}
+h2{
+    color: rgb(36, 71, 41);
+    text-shadow: 5px 3px 10px rgba(36, 71, 41, 0.5);
+}
+#result{
+    height: 10vh !important;
+    background-color: #dfd8d8;
+    text-align: right;
+}
+.main{
+    background-color: #f2f2f5da;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.op{
+    background-color: #9a9b95;
+    color: white;
+    cursor: pointer;
+}
+
+.num{
+    background-color: #646161;
+    color: white;
+    cursor: pointer;
+}
+
+.function{
+    background-color: #9bad8a;
+    cursor: pointer;
+}
